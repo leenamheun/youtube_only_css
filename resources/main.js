@@ -4,7 +4,6 @@ function createCard() {
     var items = [];
 
     $.each(data.items, function (key, val) {
-      console.log(val);
       items.push(
         `<article class="cardItem">
             <div class="card">
