@@ -74,6 +74,7 @@
 
 .main{
     padding-bottom: 70px; /*카드 마지막 푸터영역 제외*/
+    min-width: 300px;
 }
 
 .cardItem{
