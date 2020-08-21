@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "ubuntu";
+    box-sizing: border-box;
+}
+
+.frame{
+    width: 100%;
+    height: 100%;
+}
+
+.header { 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:12px 15px;
+    
+}
+.logo { 
+    width: 100px;
+}
+
+.header_right{
+    width: 12%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.header_icon{
+    width: 30px;
+}
+.user{
+    border-radius: 50%;
+}
+
+
+/* FOOTER */ 
+.footer{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    bottom: 0px;
+    display:flex;
+    justify-content: space-around;
+    border-top: 1px solid #dcdcdc;
+    background-color: #ffffff;
+}
+
+
+.footer-icons{
+    min-height: 50px;
+    width: 100px;
+    padding: 4px 0;
+    text-align: center;
+    font-size: 13px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-icons:nth-child(1) span{
+   color:red
+}
+
+.footer-icons svg{
+    width: 35px;
+}
+
+
+
+/*main card*/
+
+.main{
+    padding-bottom: 70px; /*카드 마지막 푸터영역 제외*/
+}
+
+.cardItem{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom:35px;
+}
+
+.thumbnail{
+    width: 100%;
+    height: 330px;
+}
+.uploader-icon{
+    width: 60px;
+    padding:10px 10px;
+    border-radius: 50%;
+}
+
+.description{
+    display:flex;
+    justify-content: space-between;
+
+}
+.videoInfo{
+    flex:1;
+}
+
+.video-title{
+    padding: 10px 0 3px 0;
+    font-size:15px;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    word-wrap:normal;
+    width:500px;
+    overflow:hidden;
+}
+
+.video-badge{
+    font-size:13px;
+    color: rgb(129, 129, 129);
+}
+
+.more-icon{
+    padding-top: 10px;
+    width:25px;
+}
+
